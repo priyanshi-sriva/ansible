@@ -1,0 +1,6 @@
+- name: 
+  hosts: 
+  remote_user: 
+  become: true
+  roles:
+    - role: ansible-role-mongodb
