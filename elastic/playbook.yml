@@ -1,0 +1,6 @@
+- name: Simple Example
+  hosts: elastic
+  remote_user: ubuntu
+  become: true
+  roles:
+    - role: elastic.elasticsearch
